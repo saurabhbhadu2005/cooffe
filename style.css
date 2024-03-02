@@ -1,0 +1,101 @@
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size:20px;
+    padding-left: 30px;
+}
+@media screen and (max-width:992px){
+.navbar-light .navbar-nav .nav-link{
+    background-color: rgba(210, 105, 30, 0.326);
+}
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:white;
+}
+.navbar-light .navbar-brand{
+    color: tan;
+    font-size: 35px;
+}
+.navbar-light .navbar-brand:hover{
+    color: tan;
+}
+header{
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url(carousel-1.jpg);
+}
+.main-text{
+    padding-top: 19%;
+}
+@media screen and (max-width:992px){
+    .main-text{
+        padding-top:350px;
+    }
+    }
+.main-text>h3{
+    color: tan;
+}
+.btn-dark{
+    background-color:rgba(128, 0, 0, 0.907);
+    border: 1px solid rgba(128, 0, 0, 0.812);   
+}
+.Service>h3{
+    color: tan;
+}
+.bg-position{
+    margin-top: 5%;
+    height:30vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url(bg.jpg);
+    color:tan;
+    text-align: center;
+    padding-top:100px;
+}
+.btn-ligh{
+    background-color: tan;
+    border: none;
+}
+.content{
+    height:60vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url(bg.jpg); 
+    margin-top: 5%;
+}
+@media screen and (max-width:992px){
+    .content{
+    height: 100vh;
+        }
+        }
+    
+.content>h1{
+    color: tan;
+}
+.btn-book{
+ border: none;
+ width:75%;
+ margin: 2%;
+ border: 2px solid tan;
+ color: white;
+ background-color:rgba(128, 0, 0, 0.812); 
+}
+.footer{
+        height:50vh;
+        min-height:100px;
+        background-size: cover;
+        background-image: url(bg.jpg); 
+        margin-top: 5%;
+    }
+    @media screen and (max-width:992px){
+        .footer{
+        height: 100vh;
+            }
+            }
+ .footer>.conatiner{
+background-color: rgba(210, 105, 30, 0.326);
+}
+.btn-footer{
+    background-color: tan;
+    border: none;
+}
